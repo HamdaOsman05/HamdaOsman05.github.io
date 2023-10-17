@@ -12,14 +12,18 @@ body{
         a:link
         {
             color:#ff0000;
+            box-shadow: 5px 5px 5px #888888;
+            background-color: lightgreen;
         }
         a:hover{
-            color:#00FF00;
+            border-bottom: 1px solid blue;
+            background-color: lightblue;
         }
         a:hover {
-            color:#FF00FF;
+            color: darkgreen;
         }
         a:active{
-            color:#0000FF;
+            background-color: #ffeeaa;
+             color: #00ff33
         }
     
