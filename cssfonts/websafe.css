@@ -1,13 +1,13 @@
 
 *{ 
-    background-color: rgb(174, 245, 174);
+    background-color: rgb(200, 248, 200);
 }
 .a{
     margin: 20px;
     padding: 20px;
     width: 250px;
     height: 125px;
-    background-color: linear-gradient( rgb(174, 245, 174), #65AD31);
+    background-color: linear-gradient(  rgb(200, 248, 200), #65AD31);
     font: Arial;
     box-shadow: 10px 10px 2px 2px black;
 }
@@ -16,7 +16,7 @@
     padding: 20px;
     width: 250px;
     height: 125px;
-    background-color: linear-gradient( rgb(174, 245, 174), #65AD31);
+    background-color: linear-gradient( rgb(200, 248, 200)), #65AD31);
     font: "Courier New";
     box-shadow: 10px 10px 2px 2px black;
 }
@@ -26,7 +26,7 @@
     padding: 20px;
     width: 250px;
     height: 125px;
-    background-color: linear-gradient( rgb(174, 245, 174), #65AD31);
+    background-color: linear-gradient( rgb(200, 248, 200), #65AD31);
     font: "Times New Roman";
     box-shadow: 10px 10px 2px 2px black;
 }
