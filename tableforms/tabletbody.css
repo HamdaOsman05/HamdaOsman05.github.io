@@ -28,3 +28,6 @@ table {
   thead{
     color:red;
   }
+  tfoot{
+    color: (40,40,185);
+  }
