@@ -10,7 +10,7 @@ caption{
 table {
     border-collapse: collapse;
     border: 2px solid rgb(40, 40, 185);
-    box-shadow: 5px,5px rgb(26, 26, 126);
+    box-shadow: 5px 5px rgb(26, 26, 126);
     letter-spacing: 1px;
     font-family: sans-serif;
     font-size: 0.8rem;
