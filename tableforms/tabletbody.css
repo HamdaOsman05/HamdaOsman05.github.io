@@ -1,7 +1,7 @@
 body{
     background-color: rgb(218, 248, 157);
 }
-thead,tbody{
+thead,tbody,tfoot{
     background-color: " rgb(218, 248, 157)";
 }
 caption{
@@ -23,4 +23,7 @@ table {
   
   td {
     text-align: center;
+  }
+  thead{
+    color:red;
   }
