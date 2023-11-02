@@ -1,3 +1,25 @@
-ol.a{
-    list-style-type: upper-roman;
+body{
+    background-color: lightgreen;
+}
+.roman{
+    list-style: upper-roman;
+}
+.none{
+    list-style: none;
+}
+ul{
+    list-style: square;
+    border: 2px solid blue;
+    width: 500px;
+}
+ol{
+    border: 2px solid blue;
+    width: 500px;
+}
+.boxi{
+    background-color: white;
+    color: purple;
+    list-style-type: none;
+    width: 500px;
+    border: 2px solid blue;
 }
