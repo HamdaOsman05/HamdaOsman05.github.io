@@ -2,10 +2,10 @@ body{
     background-color: rgb(218, 248, 157) ;
     margin: 50px;
 }
-form{
+label{
      color:blue;
      width: 200px;
-     display: inline;
+     display: inline-block;
      margin: 20px;
      
      
