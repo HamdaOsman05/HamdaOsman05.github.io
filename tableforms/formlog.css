@@ -1,8 +1,7 @@
 body{
     background-color: rgb(218, 248, 157) ;
-    margin: 50px;
 }
-label{
+label,input{
      color:blue;
      width: 200px;
      display: inline-block;
