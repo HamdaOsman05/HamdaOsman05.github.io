@@ -30,3 +30,20 @@ table {
   tfoot{
     color: rgb(40,40,185);
   }
+ 
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+      float: left;
+  }
+
+legend{
+    background-color: pink;
+    color: purple;
+}
+
+.blue{
+    color: blue;
+}
