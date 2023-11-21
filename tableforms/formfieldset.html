@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formfieldset</title>
+    <link rel="stylesheet" href="formfieldsetstyle.css">
+</head>
+<body>
+    <h1>Form with fieldsets</h1>
+    <form>
+    <fieldset>
+          <legend>Login</legend>
+          <label class="blue" for="Username">Username:*
+            <input type="text" name="Username" required>
+        </label><br>
+        <label class="blue" for="Password">Password:*
+            <input type="password" name="Password" required>
+        </label>
+    </fieldset>
+        <fieldset>
+            <legend>Gender*</legend>
+            <label class="blue" for="Male">Male
+                <input type="radio" name="gender"><br>
+            </label>
+            <label class="blue" for="Female">Female
+                    <input type="radio" name="gender"><br>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Programming skill</legend>
+            <label class="blue" for="Java">Java
+                <input type="checkbox" value="Java"><br>
+            </label>
+            <label class="blue" for="C++">C++
+                <input type="checkbox" value="Java">
+            </label>
+            <label class="blue" for="C#">C#
+                <input type="checkbox" value="Java">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Fruit</legend>
+            <label for="fruit">Choose a fruit:
+            <select name="fruit">
+                <option value="Banana">Banana</option>
+                <option value="Mango">Mango</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="Apple">Apple</option>
+            </select>
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend>Comment</legend>
+            <textarea name="message" cols="30" rows="5">Enter yor comment here</textarea>
+        </fieldset>
+        <input type="submit" value="Send">
+        </form>
+</body>
+</html>
+
+body{
+    background-color: rgb(211, 224, 135);
+}
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+
+legend{
+    background-color: pink;
+    color: purple;
+}
+
+.blue{
+    color: blue;
+}
