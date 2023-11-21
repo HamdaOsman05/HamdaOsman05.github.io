@@ -9,7 +9,7 @@ caption{
 }
 table {
     border-collapse: collapse;
-    border: blue;
+    border: 2px blue;
     letter-spacing: 0.5px;
     font-family: sans-serif;
     font-size: 0.8rem;
