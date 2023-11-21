@@ -13,6 +13,7 @@ table {
     letter-spacing: 0.5px;
     font-family: sans-serif;
     font-size: 0.8rem;
+    float: left;
   }
   
   td,
@@ -31,12 +32,12 @@ table {
     color: rgb(40,40,185);
   }
  
-label {
+form {
     display: block;
     font:
       1rem 'Fira Sans',
       sans-serif;
-      float: left;
+     color: blue;
   }
 
 legend{
@@ -44,6 +45,3 @@ legend{
     color: purple;
 }
 
-.blue{
-    color: blue;
-}
