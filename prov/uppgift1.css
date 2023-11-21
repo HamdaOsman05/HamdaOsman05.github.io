@@ -5,11 +5,10 @@ thead,tbody,tfoot{
     background-color: " rgb(218, 248, 157)";
 }
 caption{
-    padding:5px;
+    padding:2px;
 }
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(40, 40, 185);
     box-shadow: 5px 5px rgb(26, 26, 126);
     letter-spacing: 1px;
     font-family: sans-serif;
@@ -19,7 +18,7 @@ table {
   td,
   th {
     border: 1px solid rgb(102, 197, 102);
-    padding: 20px 40px;
+    padding: 5px 10px;
   }
   
   td {
