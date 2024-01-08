@@ -1,3 +1,28 @@
-.button{
-    
+     *{
+font-family: 'Times New Roman', Times, serif;
+}
+          body{
+background-color: rgb(34, 86, 153);
+   }
+   .blue{
+color: blue;
+       }
+   .all{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.header {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+v{
+box-shadow: 0.2em 0.2em lightgreen;
+text-align: center;
+justify-content: space-between;
+background-color: rgb(221, 221, 221);
+margin: 5px;
+padding: 5px;
 }
