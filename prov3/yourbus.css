@@ -30,7 +30,7 @@ a {
 }
 li{
     background-color:  rgb(221,221,221);
-    box-shadow: 4px 4px rgb(7,221.114 );
+    box-shadow: 8px 6px rgb(221,51.114 );
     margin: 10px;
     padding: 15px;
     flex:1;
@@ -43,7 +43,7 @@ ul{
 }
 
 .body{
-    box-shadow: 4px 4px rgb(211,51,114);
+    box-shadow: 4px 4px rgb(211,51,31);
     background-color: rgb(221,221,221);
     display: flex;
     flex-direction: row;
