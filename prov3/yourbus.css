@@ -64,19 +64,31 @@ button{
 button:hover{
     background-color: yellow;
 }
+
 .footer{
-    display:flex;
+    display: flex;
     flex: 1 1 auto;
-    flex-direction: row ;
-    justify-content: space-between;
+    flex-direction: row;
     margin: 20px;
+    justify-content: space-between;
 }
-.footer> div{
-    background-color: rgb(221,221,221 );
-    box-shadow: 3px,3px red;
+.footer > div{
+    background-color: rgb(221, 221, 221);
+      margin: 5px;
     padding: 15px;
-    margin: 5px;
+    flex: 1 20%;
+    text-align: center;
+    box-shadow: 5px 5px rgb(211, 51, 31);
 }
+
+.footer > div:hover {
+    background-color: yellow;
+}
+
+.size{
+    font-size: 2rem;
+}
+
 .icon{
     font-size: 6rem;
 }
