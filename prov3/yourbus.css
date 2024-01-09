@@ -4,24 +4,25 @@
 body{
     background-color: rgb(34, 255, 153);
 }
-.all{
+.allt{
     display: flex;
     flex-direction: column;
 }
 
-.header{
+.head{
     display:flex;
     justify-content: space-between;
     text-align: center;
     padding: 10px;
 }
-.r{
+.a{
+    margin-right: 4%;
     flex:1;
-    margin-right: 5%;
+    
 }
-.e{
-    flex:3;
-    margin-left: 5%;
+.b{
+    flex:4;
+    margin-left: 4%;
 }
 .ul{
     display: flex;
