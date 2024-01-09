@@ -1,0 +1,49 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
+body{
+    background-color: rgb(34, 86, 153);
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+.r{
+    flex:1;
+    margin-right: 5%;
+}
+.e{
+    flex:3;
+    margin-left: 5%;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0%;
+}
+.li{
+    background-color:  rgb(221,221,221);
+    box-shadow: 4px 4px rgb(7,221.114 );
+    margin: 10px;
+    padding: 15px;
+    flex:1;
+}
+.body{
+    box-shadow: 4px 4px rgb(7,177,31);
+    background-color: rgb(221,221,114);
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 0;
+}
+text{
+    margin-left: 20%;
+}
