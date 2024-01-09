@@ -2,7 +2,7 @@
     font-family:'Times New Roman', Times, serif
 }
 body{
-    background-color: rgb(34, 86, 153);
+    background-color: rgb(34, 255, 153);
 }
 .all{
     display: flex;
@@ -37,8 +37,8 @@ body{
     flex:1;
 }
 .body{
-    box-shadow: 4px 4px rgb(7,177,31);
-    background-color: rgb(221,221,114);
+    box-shadow: 4px 4px rgb(211,51,114);
+    background-color: rgb(221,221,221);
     display: flex;
     flex-direction: row;
     margin: 15px;
