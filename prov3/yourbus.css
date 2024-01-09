@@ -9,7 +9,7 @@ body{
     flex-direction: column;
 }
 
-.head{
+.del1{
     display:flex;
     justify-content: space-between;
     text-align: center;
@@ -109,7 +109,9 @@ fieldset > input{
     align-self: center;
 }
 
-@media screen and (max-width: 1100px) and (min-width: 750px) {
+
+
+@media screen and (max-width: 1200px) and (min-width: 650px) {
     .forms{
         display: none;
     }
@@ -119,13 +121,13 @@ fieldset > input{
     ul{
         flex-direction: column;
     }
-    .e, .r{
+    .b, .a{
         margin: 0;
     }
-    .e{
+    .b{
         margin-bottom: -10px;
     }
-    .r{
+    .a{
         margin-bottom: -32px;
     }
     li{
@@ -139,14 +141,14 @@ fieldset > input{
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
     .body, .forms{
         display: none;
     }
-    .e{
+    .b{
         order: 1;
     }
-    .r{
+    .a{
         order: 2;
         margin: -10px;
     }
@@ -156,13 +158,13 @@ fieldset > input{
     ul{
         flex-direction: column;
     }
-    .e, .r{
+    .b, .a{
         margin: 0;
     }
-    .e{
+    .b{
         margin-bottom: -10px;
     }
-    .r{
+    .a{
         margin-bottom: -30px;
     }
     li{
