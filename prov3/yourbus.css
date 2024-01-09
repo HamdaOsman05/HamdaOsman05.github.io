@@ -121,7 +121,7 @@ fieldset > input{
     .forms{
         display: none;
     }
-    .header{
+    .del1{
         flex-direction: column;   
     }
     ul{
@@ -148,7 +148,7 @@ fieldset > input{
 }
 
 @media screen and (max-width: 650px) {
-    .body, .forms{
+    .allt, .forms{
         display: none;
     }
     .b{
@@ -158,7 +158,7 @@ fieldset > input{
         order: 2;
         margin: -10px;
     }
-    .header{
+    .del1{
         flex-direction: column;   
     }
     ul{
